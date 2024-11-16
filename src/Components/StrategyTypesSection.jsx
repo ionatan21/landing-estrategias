@@ -3,8 +3,8 @@ import "./StrategyTypesSection.css";
 
 const StrategyTypesSection = () => {
   const strategies = [
-    { type: "Microestrategias", description: "Acciones específicas y detalladas.", link : "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1731725294/landing-estrategias/1_gpyfsu.png" },
-    { type: "Macroestrategias", description: "Planes generales para el logro de metas amplias.", link : "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1731725293/landing-estrategias/2_nokved.png" },
+    { type: "Microestrategias", description: "Acciones específicas y detalladas.", link : "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1731729794/landing-estrategias/1_gpyfsu_background_txxjgt.webp" },
+    { type: "Macroestrategias", description: "Planes generales para el logro de metas amplias.", link : "https://res.cloudinary.com/ds8cp2nxp/image/upload/v1731729868/landing-estrategias/2_nokved_background_itef2s.webp" },
   ];
 
   return (
