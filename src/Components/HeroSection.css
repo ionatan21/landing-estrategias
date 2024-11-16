@@ -1,0 +1,87 @@
+.hero-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  margin: 0 auto;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color:transparent;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;  
+  position: absolute;
+  top: 0;
+}
+
+.hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin-inline: 55px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  color: #3d3d3d;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.cta-button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  width: 200px;
+  color: white;
+  opacity: 0.7;
+  background-color: #3d3d3d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    opacity: 1;
+    scale: 1.1;
+    color: white;
+}
+
+.hero-image {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://res.cloudinary.com/ds8cp2nxp/image/upload/t_background/v1731724382/landing-estrategias/Dise%C3%B1o_sin_t%C3%ADtulo_1_kjnb5z.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.hero-image img {
+  width: 450px;
+  height: 600px;
+  
+  -webkit-border-top-left-radius: 100px;
+  -webkit-border-top-right-radius: 100px;
+  -moz-border-radius-topleft: 100px;
+  -moz-border-radius-topright: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}

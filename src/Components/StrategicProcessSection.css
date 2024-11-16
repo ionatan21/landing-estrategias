@@ -1,0 +1,36 @@
+.process-container {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .process-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .process-img {
+    width: 800px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://res.cloudinary.com/ds8cp2nxp/image/upload/v1731722852/landing-estrategias/Dise%C3%B1o_sin_t%C3%ADtulo_ka1rlh.png");
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .process-steps {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .process-steps li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
