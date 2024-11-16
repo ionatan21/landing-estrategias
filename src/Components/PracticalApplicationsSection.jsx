@@ -27,6 +27,8 @@ const PracticalApplicationsSection = () => {
           src="https://res.cloudinary.com/ds8cp2nxp/video/upload/v1731727769/landing-estrategias/Dise%C3%B1o_sin_t%C3%ADtulo_online-video-cutter.com_uckuig.webm"
         />
       </section>
+
+      <h3>Hecho por Jonatan</h3>
     </div>
   );
 };

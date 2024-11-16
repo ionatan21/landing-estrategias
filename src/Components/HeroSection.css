@@ -46,6 +46,7 @@
   font-size: 1rem;
   width: 200px;
   color: white;
+  text-align: center;
   opacity: 0.7;
   background-color: #3d3d3d;
   border: none;
@@ -71,7 +72,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 20px;
+  clip-path: polygon(15% 0, 100% 0, 100% 85%, 85% 100%, 0 100%, 0 15%);
+  border-radius: 10px;
 }
 
 .hero-image img {
